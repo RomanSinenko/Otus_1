@@ -1,12 +1,12 @@
-"""Функция для вычисления среднего значения из списка nums"""
+"""Функция для вычисления среднего значения из списка num"""
 
-def calculate_average(nums):
+def calculate_average(num):
     """Среднее значение из списка"""
-    total = sum(nums)
-    count = len(nums)
+    total = sum(num)
+    count = len(num)
     average = total / count
     return average
 
 digit = [10, 15, 20]
 result = calculate_average(digit)
-print("The average is:", result)
+print(f'The average is:, {result}')
